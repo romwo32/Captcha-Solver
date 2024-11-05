@@ -1,2 +1,42 @@
 README
 Imgage Size of Captchas: 250x70 Pixels
+# Captcha Solver
+
+Willkommen bei **Captcha Solver**, einem Repository, das sich der Entwicklung und Optimierung von Modellen zur Lösung von Captchas widmet. 
+Dieses Projekt zielt darauf ab, verschiedene Methoden zu implementieren, um die Genauigkeit bei der Erkennung und Lösung von Captchas zu verbessern.
+
+## Ziel
+
+Das Hauptziel dieses Projekts ist es, leistungsfähige Modelle zu entwickeln, die Textbasierte Captchas analysieren und lösen können. Im Fokus stehen:
+
+- **Convolutional Neural Networks (CNN)**: Zum Erkennen von Bildmustern in Captchas.
+- **Convolutional Recurrent Neural Networks (CRNN)**: Zur Erkennung von Text in Bildern, insbesondere bei Captchas, die textbasierte Herausforderungen beinhalten.
+- **OpenGL**: Zur Implementierung und Visualisierung von 2D-Renderings und zur Unterstützung bei der Datenvorbereitung.
+
+## Aktueller Stand
+
+Momentan enthält das Repository noch keine implementierten ML-Modelle. 
+Jedoch sind Skripte für das erstellen der Trainingsdaten und zum splitten der generierten Daten vorhanden. 
+Geplante Implementierungen umfassen:
+
+- Training von CNNs zur Erkennung von Zahlen und Buchstaben.
+- Implementierung von CRNNs für die Textgenerierung aus Bilddaten.
+- Nutzung von OpenGL für die Datenvisualisierung.
+
+## Anforderungen
+
+Um an diesem Projekt zu arbeiten, benötigst du:
+
+- Python 3.x
+- TensorFlow oder PyTorch
+- OpenCV
+- Weitere Bibliotheken, die in `requirements.txt` aufgelistet sein werden.
+
+## Installation
+
+1. Klone das Repository:
+
+   ```bash
+   git clone https://github.com/romwo32/Captcha-Solver.git
+   cd Captcha-Solver
+
