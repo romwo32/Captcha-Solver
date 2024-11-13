@@ -11,7 +11,7 @@ Das Hauptziel dieses Projekts ist es, leistungsfähige Modelle zu entwickeln, di
 
 - **Convolutional Neural Networks (CNN)**: Zum Erkennen von Bildmustern in Captchas.
 - **Convolutional Recurrent Neural Networks (CRNN)**: Zur Erkennung von Text in Bildern, insbesondere bei Captchas, die textbasierte Herausforderungen beinhalten.
-- **OpenGL**: Zur Implementierung und Visualisierung von 2D-Renderings und zur Unterstützung bei der Datenvorbereitung.
+- **LightGBM**: Zur Erkennung von Text in Bildern
 
 ## Aktueller Stand
 
@@ -21,7 +21,7 @@ Geplante Implementierungen umfassen:
 
 - Implementierung von CNNs
 - Implementierung von CRNNs
-- Implementierung LigthGBM
+- Implementierung LightGBM
 
 ## Anforderungen
 
